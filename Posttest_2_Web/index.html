@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daniel's Motor | Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="web design, web template, web structure">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Daniel's</span> Motor</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="list.html">List</a></li>
+                    <li><a href="motor.html">Motor</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="daftar.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <div class = "mitra">
+                <h1>Selamat Datang di Daniel's Motor</h1>    
+                <form>
+                    <label for="text">Nama</label><br>
+                    <input type="text" id="nama" name="nama"><br>
+                    <br>
+                    <label for="pesan">Deskripsi keinginan</label><br>
+                    <textarea rows="5" cols="40" id="address" name="pesan"></textarea><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <br>
+                    <label for="Gender">Jenis Kelamin</label><br>
+                    <select id="Gender" name="Gender">
+                        <option value="Male">Pria</option>
+                        <option value="Female">Wanita</option>
+                    </select>
+                    <br><br>
+                    <label for="radio">Motor yang diinginkan</label><br>
+                    <input type="radio" id="motor kecil" name="radio" value="Motor Kecil">Motor Kecil<br>
+                    <input type="radio" id="motor sedang" name="radio" value="Motor Sedang">Motor Sedang<br>
+                    <input type="radio" id="motor besar" name="radio" value="Motor Besar">Motor Besar<br>
+                    <br>
+                    <label for="checkbox">Data anda sudah benar?</label><br>
+                    <input type="checkbox" name="checkbox" id="checkbox" value="Ya, sudah benar!">Ya, data saya sudah benar<br>
+                    <br>
+                    <!-- <button>Book</button> -->
+                    <a class="btn" onclick="simpan()" href="form.html">Input</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Selamat Datang di Website Resmi Dealer Motor Terbaik yang ada di Kalimantan Timur</h1>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="./images/Daniel Ganteng.jpeg">
+                <h3>Kim Jong Daniel</h3>
+                <p>CEO of Public Advertisement
+                </p>
+            </div>
+            <div class="box">
+                <img src="./images/Daniel Ganteng3.jpeg">
+                <h3>Byung Hyang Daniel</h3>
+                <p>CEO of Company
+                </p>
+            </div>
+            <div class="box">
+                <img src="./images/Daniel Ganteng2.jpeg">
+                <h3>Jack Daniel</h3>
+                <p>CEO of Test Drive
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Daniel's Motor, Copyright &copy; 2015</p>
+
+    </footer>
+</body>
+<script src ="index.js"> </script>
+
+</html>
